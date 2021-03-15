@@ -1,19 +1,16 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "AS A business owner I WANT to be able to view and manage the departments, roles, and employees in my company SO THAT I can organize and plan my business",
+  "description": "A command line application to view and manage departments",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jecho \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CherylFogerty/employee-tracker.git"
   },
-  "author": "",
+  "author": "Cheryl Fogerty",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CherylFogerty/employee-tracker/issues"
@@ -21,7 +18,15 @@
   "homepage": "https://github.com/CherylFogerty/employee-tracker#readme",
   "dependencies": {
     "console.table": "^0.10.0",
+    "crud": "0.0.28",
     "inquirer": "^8.0.0",
-    "mysql2": "^2.2.5"
-  }
+    "mysql2": "^2.2.5",
+    "schema": "^0.2.1",
+    "seeds": "^2.3.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
